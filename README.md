@@ -6,6 +6,8 @@ Personal portfolio website for Abdel Rahman Alashel, focused on software develop
 
 [https://abdelrahmanalashel.github.io/Portfolio/](https://abdelrahmanalashel.github.io/Portfolio/)
 
+If this link is still returning `404`, enable GitHub Pages in the repository under `Settings > Pages` and set the source to `GitHub Actions`. The deployment workflow is already included in this repo.
+
 ## Repository
 
 [https://github.com/AbdelrahmanAlashel/Portfolio](https://github.com/AbdelrahmanAlashel/Portfolio)
