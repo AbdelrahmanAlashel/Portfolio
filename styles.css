@@ -411,11 +411,6 @@ h1 {
   color: var(--muted);
 }
 
-.button-disabled {
-  cursor: not-allowed;
-  opacity: 0.75;
-}
-
 .hero-facts {
   gap: 0.85rem;
   margin-top: 1.8rem;
@@ -434,20 +429,6 @@ h1 {
   margin-top: 0.45rem;
   font-size: 0.96rem;
   color: var(--ink);
-}
-
-.floating-note {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  z-index: 2;
-  max-width: 15rem;
-  padding: 0.85rem 1rem;
-  border: 1px solid rgba(216, 178, 110, 0.22);
-  border-radius: 20px;
-  background: rgba(7, 19, 24, 0.86);
-  color: var(--muted);
-  font-size: 0.88rem;
 }
 
 .portrait-frame {

@@ -46,4 +46,5 @@ Open `index.html` directly in a browser, or run a simple local server from the r
 
 - The main portrait is stored in `assets/hero-portrait.jpg`.
 - Community campaign photos are stored in `assets/community/`.
-- Resume and email links are left easy to update directly in the HTML comments.
+- The resume PDF is stored at `assets/Abdel_Rahman_Alashel_Combined_Resume.pdf`.
+- Email and resume paths are easy to update directly in the HTML comments.
