@@ -481,10 +481,24 @@ h1 {
 
 .metric-number,
 .kpi-number {
-  display: block;
   font-family: "Cormorant Garamond", serif;
   font-size: clamp(2.2rem, 4vw, 3.2rem);
   line-height: 0.95;
+}
+
+.metric-number {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.02em;
+}
+
+.metric-unit {
+  display: block;
+}
+
+.kpi-number {
+  display: block;
 }
 
 .metric-label,
