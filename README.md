@@ -6,7 +6,10 @@ Personal portfolio website for Abdel Rahman Alashel, focused on software develop
 
 [https://abdelrahmanalashel.github.io/Portfolio/](https://abdelrahmanalashel.github.io/Portfolio/)
 
-If this link is still returning `404`, enable GitHub Pages in the repository under `Settings > Pages` and set the source to `GitHub Actions`. The deployment workflow is already included in this repo.
+Community page:
+[https://abdelrahmanalashel.github.io/Portfolio/community.html](https://abdelrahmanalashel.github.io/Portfolio/community.html)
+
+If the main link is still returning `404`, enable GitHub Pages in the repository under `Settings > Pages` and set the source to `GitHub Actions`. The deployment workflow is already included in this repo.
 
 ## Repository
 
@@ -14,11 +17,11 @@ If this link is still returning `404`, enable GitHub Pages in the repository und
 
 ## Highlights
 
-- Premium one-page portfolio design with a custom hero section
-- Project showcase for software, database, Java, and web work
-- Experience timeline for development, systems support, tutoring, operations, and sales
-- Leadership and community section centered on real involvement
-- Responsive layout for desktop and mobile
+- Premium portfolio landing page with a stronger editorial visual style
+- Dedicated community leadership page with campaign photos and impact metrics
+- Project showcase covering software, databases, Java simulation work, and published web projects
+- Responsive design for desktop and mobile
+- Clean static stack that is easy to edit later
 
 ## Stack
 
@@ -29,9 +32,11 @@ If this link is still returning `404`, enable GitHub Pages in the repository und
 ## Main Files
 
 - `index.html`
+- `community.html`
 - `styles.css`
 - `script.js`
 - `assets/hero-portrait.jpg`
+- `assets/community/`
 
 ## Local Preview
 
@@ -40,4 +45,5 @@ Open `index.html` directly in a browser, or run a simple local server from the r
 ## Notes
 
 - The main portrait is stored in `assets/hero-portrait.jpg`.
-- Additional community and project images can be added later as more sections are expanded.
+- Community campaign photos are stored in `assets/community/`.
+- Resume and email links are left easy to update directly in the HTML comments.
