@@ -867,8 +867,24 @@ h1 {
   padding: 0;
 }
 
+.gallery-media-duo {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.25rem;
+}
+
 .gallery-card img {
   aspect-ratio: 4 / 3;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-card-duo img {
+  aspect-ratio: 4 / 3;
+}
+
+.portrait-card img {
+  aspect-ratio: 3 / 4;
 }
 
 .gallery-card figcaption {
@@ -878,11 +894,11 @@ h1 {
 }
 
 .gallery-card:nth-child(1) {
-  grid-column: span 5;
+  grid-column: span 4;
 }
 
 .gallery-card:nth-child(2) {
-  grid-column: span 3;
+  grid-column: span 8;
 }
 
 .gallery-card:nth-child(3) {
@@ -894,6 +910,10 @@ h1 {
 }
 
 .gallery-card:nth-child(5) {
+  grid-column: span 4;
+}
+
+.gallery-card:nth-child(6) {
   grid-column: span 8;
 }
 
@@ -1012,7 +1032,8 @@ h1 {
   .gallery-card:nth-child(2),
   .gallery-card:nth-child(3),
   .gallery-card:nth-child(4),
-  .gallery-card:nth-child(5) {
+  .gallery-card:nth-child(5),
+  .gallery-card:nth-child(6) {
     grid-column: auto;
   }
 }
@@ -1093,6 +1114,10 @@ h1 {
   }
 
   .campaign-media.media-two {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-media-duo {
     grid-template-columns: 1fr;
   }
 
