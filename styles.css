@@ -159,17 +159,16 @@ img {
 }
 
 .brand-monogram {
-  display: inline-grid;
-  place-items: center;
-  width: 2.3rem;
-  height: 2.3rem;
-  border: 1px solid rgba(216, 178, 110, 0.34);
-  border-radius: 50%;
-  background: linear-gradient(135deg, rgba(216, 178, 110, 0.2), rgba(123, 208, 195, 0.14));
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1.2rem;
-  letter-spacing: 0;
-  text-transform: none;
+  display: inline-flex;
+  width: 2.55rem;
+  height: 2.55rem;
+  flex: 0 0 auto;
+}
+
+.brand-monogram img {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 .site-nav {
